@@ -1,0 +1,79 @@
+#heading {
+  color: purple;
+  font-size: 50px;
+  position: relative;
+  animation-name: magic;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes magic {
+  0% {
+    color: purple;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    color: lightcoral;
+    left: 20px;
+    top: 0px;
+  }
+  50% {
+    color: lightseagreen;
+    right: 100px;
+    top: 10px;
+  }
+  75% {
+    color: lightpink;
+    right: 20px;
+    top: 0px;
+  }
+
+  100% {
+    color: lightseagreen;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  margin: 20px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+body {
+  position: relative;
+  background-color: lightblue;
+}
+/*
+#firstBox {
+  margin: left, 100px;
+  width: 300px;
+  height: 500px;
+  border: 8px solid black;
+  padding: 10px;
+  background: white;
+}
+
+#navBar {
+  display: flex;
+  justify-content: center;
+  margin: -10px;
+  height: 60px;
+  width: 90em;
+  background: lightgray;
+  padding: 5px;
+}
+*/
+#noBackground {
+  background-image: none;
+}
