@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="portfolio" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="document.form1.first-name.focus()">
+    <header>
+      <div class="container">
+        <nav id="nav-bar">
+          <a href="#Home"><img id="logo" src="bnw_logo.png" /></a>
+          <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="Home">
+      <div class="text">
+        <p>Software Developer</p>
+        <h1>Hello, I am <span>Eddy</span></h1>
+      </div>
+      <!--Penguin below this point-->
+      <div class="penguin">
+        <div class="penguin-bottom">
+          <div class="right-hand"></div>
+          <div class="left-hand"></div>
+          <div class="right-feet"></div>
+          <div class="left-feet"></div>
+        </div>
+        <div class="penguin-top">
+          <div class="right-cheek"></div>
+          <div class="left-cheek"></div>
+          <div class="belly"></div>
+          <div class="right-eye">
+            <div class="sparkle"></div>
+          </div>
+          <div class="left-eye">
+            <div class="sparkle"></div>
+          </div>
+          <div class="blush-right"></div>
+          <div class="blush-left"></div>
+          <div class="beak-top"></div>
+          <div class="beak-bottom"></div>
+        </div>
+      </div>
+      <!-- Penguin above this point-->
+    </section>
+    <div class="alignment">
+      <section id="About">
+        <h1 class="topic-color">About Me</h1>
+        <div class="text-box">
+          <p class="p-color">
+            Hello, Eddy is short for Eduardo. I am an upcoming Software
+            Developer trying to break into this innovative industry. I have a
+            background in retail, sales, and management. I am currently a
+            Full-Stack Apprentice at
+            <em><b id="title">Discovery Partner's Institute</b></em
+            >. At DPI we are building the fundamentals and strengthining them to
+            increase our value to potential employers. Outside of work, I love
+            to research many useful objects that make up our world. I am a gym
+            advocate and emphasize my training to obtain the best physique
+            possible in this one life we get.
+          </p>
+        </div>
+      </section>
+      <section id="Projects">
+        <h1 class="topic-color">Projects</h1>
+        <div class="text-box">
+          <p class="p-color">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+          </p>
+        </div>
+      </section>
+      <section id="Contact">
+        <h1 class="topic-color" id="heading_contact">Contact</h1>
+        <form
+          name="form1"
+          action="https://formsubmit.co/9210bd33d47e5ef0e6b8ea7ab9b8dc71"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://stilleddy.com/pages/thank_you.html"
+            method="POST"
+          />
+
+          <fieldset class="text-box-contact">
+            <legend id="legend-correction">
+              <h1>Send a message!</h1>
+            </legend>
+            <label for="first-name">
+              <input
+                id="first-name"
+                name="first-name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+            </label>
+            <label for="email">
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Your email"
+                required
+              />
+            </label>
+            <label for="message">
+              <textarea
+                rows="8"
+                maxlength="500"
+                id="message"
+                name="message"
+                type="text"
+                placeholder="Appointment Date and Time"
+                required
+              ></textarea>
+            </label>
+          </fieldset>
+          <input id="submit-button" type="submit" value="Submit" />
+        </form>
+      </section>
+    </div>
+    <span id="copyright">&copy 2023 stilleddy.com</span>
+  </body>
+</html>
