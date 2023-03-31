@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  background: #fffafa;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background: #fffafa;
+  border-radius: 12px;
+}
+
+button:active {
+  background: #d9376e;
+}
+
+button:active h2 {
+  color: black;
+}
+
+h2 {
+  color: #d9376e;
+}
